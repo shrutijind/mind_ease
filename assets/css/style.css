@@ -1,0 +1,16 @@
+.custom-navbar {
+ background-color: rgba(240, 21, 21, 0.2);
+  backdrop-filter: blur(10px); /* your custom background */
+}
+
+.custom-navbar .nav-link {
+  color: white; /* text color */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f16507; /* hover color */
+}
+
+.custom-navbar .navbar-brand {
+  color: white;
+}
