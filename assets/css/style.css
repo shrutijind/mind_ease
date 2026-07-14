@@ -221,7 +221,12 @@ padding-bottom:20;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 12px;
+  margin-top: 20px;
 }
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
 
 .carousel-images {
   display: flex;
