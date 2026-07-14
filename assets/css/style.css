@@ -14,3 +14,20 @@
 .custom-navbar .navbar-brand {
   color: white;
 }
+.hero-section h1,
+.hero-section p {
+  text-align: left;
+}
+.hero-section .col-md-6 {
+  text-align: left;
+}
+.hero-section {
+  background-image: url("../images/herob.jpg"); /* your soothing image */
+  background-size: cover;
+ background-position: top center; /* crops bottom */
+  background-repeat: no-repeat;
+  
+
+  padding: 50px 0; /* spacing so content breathes */
+  position: relative;
+}
