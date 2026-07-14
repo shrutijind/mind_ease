@@ -31,3 +31,102 @@
   padding: 50px 0; /* spacing so content breathes */
   position: relative;
 }
+.services-section {
+  padding: 0px 20px;
+  text-align: center;
+  background-color: #f7f9fc;
+  ;
+}
+.services-container1{
+padding-top:20;
+padding-bottom:20;
+  text-align: center;
+  background-color: #f7f9fc;
+  font-size: 50px;
+}
+
+.services-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #2a4d69;
+}
+
+.services-subtitle {
+  font-size: 18px;
+  color: #4f6d7a;
+  margin-bottom: 40px;
+}
+
+/* FLEXBOX CONTAINER */
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+   display: flex;
+  justify-content: space-around; /* equal spacing around each box */
+  flex-wrap: wrap;
+}
+
+/* FLEXBOX ITEMS -Service Section*/
+.service-box {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column; /* stack image + text */
+  align-items: center;
+  justify-content:space-evenly;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+
+.service-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.15);
+}
+
+.service-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  margin-bottom: 10px;
+  color: #2a4d69;
+}
+
+.service-box p {
+  color: #4f6d7a;
+  font-size: 15px;
+}
+
+
+
+/* ------------------------------
+   RESPONSIVE BREAKPOINTS
+--------------------------------*/
+
+/* TABLET VIEW (2 columns) */
+@media (max-width: 900px) {
+  .service-box {
+    width: 45%; /* two boxes per row */
+  }
+}
+
+/* MOBILE VIEW (1 column) */
+@media (max-width: 600px) {
+  .service-box {
+    width: 100%; /* full width */
+  }
+
+  .service-box img {
+    height: 160px; /* slightly smaller image */
+  }
+}
