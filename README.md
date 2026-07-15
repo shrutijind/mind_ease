@@ -1,86 +1,171 @@
-# MindEase
+# 🌿 MindEase
 
-MindEase is a responsive mental wellness website built with **HTML**, **CSS**, and **Bootstrap 5**. It provides a calm, supportive landing page with sections for services, about information, contact details, and subscription forms.
+MindEase is a fully responsive mental‑wellbeing platform built using **HTML5**, **CSS3**, and **Bootstrap 5**.  
+It provides users with a calm, supportive digital space where they can explore therapy options, mindfulness tools, emotional guidance, and wellness programs.
 
-## Features
+🌐 **Live Website:** https://shrutijind.github.io/mind_ease/
 
-- Responsive design for desktop, tablet, and mobile
-- Home page with hero section and service highlights
-- About page with wellness information
-- Services page with service cards
-- Contact page with contact form layout
-- Support page with carousel and call-to-action content
-- Subscription and confirmation pages
-- Bootstrap navbar, cards, buttons, and layout helpers
-- Font Awesome social media icons
+---
 
-## Screenshots
+## 🏷️ Badges
 
-Add your project screenshots to a `screenshots/` folder in the repository, then update the image paths below if needed.
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-black?logo=github)
+![Font Awesome](https://img.shields.io/badge/Icons-Font%20Awesome-528DD7?logo=fontawesome)
 
-### Responsive preview
+---
 
-| Mobile | Tablet | Desktop |
-| --- | --- | --- |
-| ![MindEase mobile layout](screenshots/mobile.png) | ![MindEase tablet layout](screenshots/tablet.png) | ![MindEase desktop layout](screenshots/desktop.png) |
+## 📘 Project Overview
 
-Suggested filenames:
+MindEase is designed as a mental‑health support interface that offers:
 
-- `screenshots/mobile.png`
-- `screenshots/tablet.png`
-- `screenshots/desktop.png`
+- Emotional guidance through structured support sections  
+- Professional service listings (therapy sessions, wellness programs, mindfulness training)  
+- Interactive components (contact forms, subscription forms)  
+- Calming visual design using soft colors, balanced spacing, and supportive imagery  
+- Clear navigation across multiple pages (Home, About, Services, Support, Contact)
 
-## Project Structure
+The website is intentionally built as a **static multi‑page application**, making it lightweight, fast, and easy to deploy on GitHub Pages.
 
-```text
-mind_ease/
-├── index.html
-├── About.html
-├── service.html
-├── contact.html
-├── contactsubmit.html
-├── subscribe.html
-├── README.md
-└── assets/
-    ├── css/
-    │   └── style.css
-    └── images/
-        ├── support.html
-        ├── logomind.png
-        ├── Hero.jpg
-        ├── herob.jpg
-        ├── carsec1.jpg
-        ├── carsec2.jpg
-        ├── carsec3.jpg
-        └── other image assets
-```
+---
 
-## Technologies Used
+# 🧩 MoSCoW User Stories
 
-- HTML5
-- CSS3
-- Bootstrap 5.3
-- Font Awesome 6
+## ✅ Must‑Have
 
-## How to Run
+### **User-Friendly Navigation & Responsive Design**
+- Navbar visible on all pages  
+- Mobile hamburger menu  
+- Footer with social icons  
+- Social links open in new tab  
 
-1. Download or clone the repository.
-2. Open `index.html` in your browser, or use VS Code Live Server.
-3. Navigate through the pages using the navbar.
+### **Hero Section**
+- Headline + description  
+- Contact Us button  
+- Responsive layout  
 
-## Notes
+### **Services Overview**
+- Service cards with image, title, description  
+- Responsive grid  
 
-- The support page is stored at `assets/images/support.html`, so its links use relative paths back to the project root.
-- Navigation links use lowercase file names such as `service.html` and `contact.html` for consistency.
+### **Client Testimonials**
+- Testimonials with name, photo, feedback  
+- Responsive layout  
 
-## Customization
+### **Contact Form**
+- Name, email, subject, message fields  
+- Validation  
+- Confirmation message  
 
-You can easily update:
+---
 
-- text content in the HTML files
-- colors, spacing, and responsive behavior in `assets/css/style.css`
-- images in the `assets/images/` folder
+## ⭐ Should‑Have
 
-## License
+### **Detailed Services Page**
+- Dedicated page  
+- Images + descriptions + CTA  
 
-No license has been specified yet. Add one if you plan to publish or share the project publicly.
+### **About Us Page**
+- Mission, values, team bios  
+- Responsive layout  
+
+---
+
+## 💡 Could‑Have
+
+### **Newsletter Sign-Up**
+- Footer form  
+- Name + email fields  
+
+### **Blog Section**
+- Blog page  
+- Posts with title, author, date  
+
+---
+
+
+
+# 🧱 Wireframes
+
+### 📱 Mobile Wireframe  
+![Mobile Wireframe](assets/images/wireframes.png)
+
+
+# ✒️ Typography
+
+MindEase uses a calm, modern, and highly readable typography system.
+
+### **Primary Font — Poppins**
+Used for:
+- Headings  
+- Titles  
+- Buttons  
+- Navigation  
+
+### **Secondary Font — Open Sans**
+Used for:
+- Body text  
+- Paragraphs  
+- Descriptions  
+
+---
+
+# 🧩 Features
+
+## ✔ Current Features
+- Navigation bar  
+- Hero section  
+- Mental health awareness section  
+- Cards for improving mental health  
+- Helping others section  
+- Contact details with social icons  
+- Footer  
+
+## 🔮 Future Features
+- Seeking help resource section  
+- Image carousel in header  
+
+---
+
+# 🧪 Testing
+
+### **HTML Validation**
+Validated using **W3C Markup Validation Service** — all issues resolved.
+
+### **CSS Validation**
+Validated using **W3C CSS Validator** — no issues found.
+
+---
+
+# 🚀 Deployment (GitHub Pages)
+
+1. Log into GitHub  
+2. Open repository  
+3. Go to **Settings → Pages**  
+4. Under *Build and Deployment*, choose branch: **Main**  
+5. Click **Save**  
+6. Visit deployed site:  
+   https://shrutijind.github.io/mind_ease/
+
+---
+
+# 📚 Credits
+
+- **Bootstrap** — Layout & components  
+- **Code Institute** — Learning materials  
+- **ChatGPT** — Guidance & troubleshooting  
+- **Google Fonts** — Poppins & Open Sans  
+- **Font Awesome** — Icons  
+- **W3C Validators** — HTML & CSS validation  
+- **GitHub Copilot** — Coding assistance  
+- **Pexels** — Images  
+
+---
+
+# 📧 Contact
+
+For questions or collaboration:  
+**shruti@example.com** (replace with your email)
+
