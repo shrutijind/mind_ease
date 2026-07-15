@@ -26,19 +26,14 @@
     footer {
       margin-top: auto;
     }
-    .service-card img {
-      height: 250px;
-      object-fit: cover;
-      border-radius: 8px 8px 0 0;
-    }
   </style>
 </head>
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg custom-navbar">
+<nav class="navbar navbar-expand-lg navbar-light custom-navbar">
   <div class="container-fluid">
-    <a class="navbar-brand d-flex align-items-center" href="#">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
       <img src="assets/images/logomind.png" alt="MindEase Logo" width="40" height="40" class="me-2">
       <strong>MindEase</strong>
     </a>
@@ -51,8 +46,8 @@
       <div class="navbar-nav ms-auto">
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="About.html">About</a>
-        <a class="nav-link active" href="Services.html">Services</a>
-        <a class="nav-link" href="Contact.html">Contact</a>
+        <a class="nav-link active" href="service.html">Services</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </div>
     </div>
   </div>
@@ -72,37 +67,37 @@
     <div class="row g-4">
 
       <!-- Service 1 -->
-      <div class="col-md-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card service-card shadow-sm border-0 h-100">
           <img src="assets/images/online.jpg" class="card-img-top" alt="Online Therapy">
           <div class="card-body">
             <h4 class="fw-semibold mb-2">Online Therapy</h4>
             <p>Book one-on-one sessions with licensed therapists from the comfort of your home.</p>
-            <a href="Contact.html" class="btn btn-outline-primary btn-sm">Book Now</a>
+            <a href="contact.html" class="btn btn-outline-primary btn-sm">Book Now</a>
           </div>
         </div>
       </div>
 
       <!-- Service 2 -->
-      <div class="col-md-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card service-card shadow-sm border-0 h-100">
           <img src="assets/images/pers.jpg" class="card-img-top" alt="Personal Counselling">
           <div class="card-body">
             <h4 class="fw-semibold mb-2">Counselling For You</h4>
             <p>Personalized emotional support tailored to your unique needs and challenges.</p>
-            <a href="Contact.html" class="btn btn-outline-primary btn-sm">Learn More</a>
+            <a href="contact.html" class="btn btn-outline-primary btn-sm">Learn More</a>
           </div>
         </div>
       </div>
 
       <!-- Service 3 -->
-      <div class="col-md-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card service-card shadow-sm border-0 h-100">
           <img src="assets/images/couns.jpg" class="card-img-top" alt="Support Groups">
           <div class="card-body">
             <h4 class="fw-semibold mb-2">Support Groups</h4>
             <p>Join group sessions, share experiences, and connect with others who understand.</p>
-            <a href="Contact.html" class="btn btn-outline-primary btn-sm">Join Now</a>
+            <a href="contact.html" class="btn btn-outline-primary btn-sm">Join Now</a>
           </div>
         </div>
       </div>
@@ -119,9 +114,9 @@
       <p>Get helpful tips, resources, and updates straight to your inbox.</p>
     </div>
 
-    <form class="subscribe-form" action="contactsubmit.html" method="GET">
+    <form class="subscribe-form" action="subscribe.html" method="GET">
       <input type="email" name="email" placeholder="Your email address" required>
-      <button type="submit"><a href="subscribe.html">Subscribe</a></button>
+      <button type="submit">Subscribe</button>
     </form>
   </div>
 </section>
