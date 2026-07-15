@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>MindEase – Services</title>
+
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    footer {
+      margin-top: auto;
+    }
+    .service-card img {
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="assets/images/logomind.png" alt="MindEase Logo" width="40" height="40" class="me-2">
+      <strong>MindEase</strong>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="About.html">About</a>
+        <a class="nav-link active" href="Services.html">Services</a>
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="text-center py-5 bg-light">
+  <div class="container">
+    <h1 class="fw-bold mb-3">Our Services</h1>
+    <p class="lead">Explore our range of supportive services designed to help you nurture your mental well-being.</p>
+  </div>
+</section>
+
+<!-- SERVICES GRID -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Service 1 -->
+      <div class="col-md-4">
+        <div class="card service-card shadow-sm border-0 h-100">
+          <img src="assets/images/online.jpg" class="card-img-top" alt="Online Therapy">
+          <div class="card-body">
+            <h4 class="fw-semibold mb-2">Online Therapy</h4>
+            <p>Book one-on-one sessions with licensed therapists from the comfort of your home.</p>
+            <a href="Contact.html" class="btn btn-outline-primary btn-sm">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-4">
+        <div class="card service-card shadow-sm border-0 h-100">
+          <img src="assets/images/pers.jpg" class="card-img-top" alt="Personal Counselling">
+          <div class="card-body">
+            <h4 class="fw-semibold mb-2">Counselling For You</h4>
+            <p>Personalized emotional support tailored to your unique needs and challenges.</p>
+            <a href="Contact.html" class="btn btn-outline-primary btn-sm">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-4">
+        <div class="card service-card shadow-sm border-0 h-100">
+          <img src="assets/images/couns.jpg" class="card-img-top" alt="Support Groups">
+          <div class="card-body">
+            <h4 class="fw-semibold mb-2">Support Groups</h4>
+            <p>Join group sessions, share experiences, and connect with others who understand.</p>
+            <a href="Contact.html" class="btn btn-outline-primary btn-sm">Join Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SUBSCRIBE SECTION -->
+<section class="subscribe-section">
+  <div class="subscribe-container">
+    <div class="subscribe-text">
+      <h2><strong>Stay informed</strong></h2>
+      <p>Get helpful tips, resources, and updates straight to your inbox.</p>
+    </div>
+
+    <form class="subscribe-form" action="contactsubmit.html" method="GET">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <button type="submit"><a href="subscribe.html">Subscribe</a></button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer text-center py-3">
+  <p class="footer-title fw-bold">MindEase</p>
+  <div class="footer-social mb-2">
+    <a href="https://www.facebook.com" class="social-link mx-2"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com" class="social-link mx-2"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.twitter.com" class="social-link mx-2"><i class="fa-brands fa-twitter"></i></a>
+  </div>
+  <p class="footer-copy">© 2026 MindEase. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
