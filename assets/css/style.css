@@ -5,7 +5,7 @@
 }
 
 .custom-navbar .nav-link {
-  color: white; /* text color */
+  color: black; /* text color */
 }
 
 .custom-navbar .nav-link:hover {
@@ -13,7 +13,7 @@
 }
 
 .custom-navbar .navbar-brand {
-  color: white;
+  color: black;
 }
 
 .custom-navbar .navbar-toggler {
